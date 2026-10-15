@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgba(252, 250, 250, 0);
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+   background-color: rgb(245, 214, 113);
+   font-weight: 900;
+   font-size: larger;
+   padding: 20px;
+}
+
+.nav-links ul a{
+    text-decoration: none;
+    color: rgb(12, 9, 9);
+    font-weight: 800;
+    font-family: 'Courier New';
+    padding: 20px;
+}
+
+.nav-links button{
+    background-color: burlywood;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.image img{
+    width: 100%;
+    object-fit: cover;
+    transition: 1s ease-in-out;
+  
+}
+
+ .text{
+    position: absolute; 
+    top: 40%;
+}
+
+.text p{
+   font-size: 80px;
+   color: rgb(245, 214, 113);
+}
+
+.text p span{
+    color: burlywood;
+}
+.nav-links button:hover{
+background-color: beige;
+}
+
+
+ .sec-text button:hover{
+    background-color:  beige;
+ }
+
+.text button{
+    background-color: burlywood;
+    border: none;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+}
+
+.text span{
+    font-weight: 900;
+    color: rgb(245, 214, 113);
+}
+
+.main{
+    position: relative;
+}
+    
+  .sec-img img{
+width: 80%;
+height: 100%;
+  }
+
+.sec-main{
+       display: flex;
+       justify-content: center;
+   gap: 500px;
+   background-color: rgb(245, 214, 113);
+   margin: 30px;
+   border-radius: 50px;
+   box-shadow: 0 8px 25px rgba(0,0,0,1);
+   
+  
+}
+
+.sec-text{
+    padding-top: 300px;
+    padding-right: 30px;
+    font-size: 25px;
+
+
+    
+}
+
+.sec-text button{
+    background-color: burlywood;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+ box-shadow: 0 8px 25px rgb(245, 214, 113);
+ margin: 30px;
+ border-radius: 40px;
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(245, 214, 113);
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card p{
+    font-size: small;
+    font-weight: 100;
+}
+.contact{
+    color: brown;
+    background-color: rgb(245, 214, 113);
+    margin: 80px;
+    border-radius: 40px;
+    height: 300px;
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: 0 8px 25px rgba(0,0,0,1);
+}
